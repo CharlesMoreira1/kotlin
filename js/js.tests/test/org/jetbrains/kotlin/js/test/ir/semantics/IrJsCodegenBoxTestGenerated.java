@@ -26090,6 +26090,16 @@ public class IrJsCodegenBoxTestGenerated extends AbstractIrJsCodegenBoxTest {
             runTest("compiler/testData/codegen/box/vararg/evaluationOrder.kt");
         }
 
+        @TestMetadata("jsExternalVarargCtor.kt")
+        public void testJsExternalVarargCtor() throws Exception {
+            runTest("compiler/testData/codegen/box/vararg/jsExternalVarargCtor.kt");
+        }
+
+        @TestMetadata("jsExternalVarargFun.kt")
+        public void testJsExternalVarargFun() throws Exception {
+            runTest("compiler/testData/codegen/box/vararg/jsExternalVarargFun.kt");
+        }
+
         @TestMetadata("kt1978.kt")
         public void testKt1978() throws Exception {
             runTest("compiler/testData/codegen/box/vararg/kt1978.kt");
